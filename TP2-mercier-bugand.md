@@ -16,15 +16,16 @@
 
 **4.** Pour créer la variable **My_Var** en bash il suffit de taper la commande _`MyVar='la valeur de la variable'`_. Nous pouvons vérifier son existance en utilisant la commande _`echo $My_Var`_.
 
-**5.**
+**5.** 
 
 **6.** 
 
 **7.** Pour créer la variable d'environnement **NOMS** on utilise la commande _`export NOMS='Mercier Bugand-Bugandet'`_ Ensuite il suffit de rentrer la commande _`echo $NOMS`_ pour verifier.
 
-**8.**
+**8.** La commande qui permet d'écrire ”Bonjour à vous deux, binôme1 binôme2 !” (où binôme1 et binôme2
+sont vos deux noms) en utilisant la variable NOMS est la suivante : _`echo "Bonjour à vous deux, $NOMS"`_.
 
-**9.**
+**9.** Donner une valeur vide à une varible permet de supprimer son contenu. Utiliser la commande _`unset`_ permet de supprimer compètement la variable des fichiers d'environnement.
 
 **10.** la commande echo pour écrire exactement la phrase : $HOME = chemin (où chemin est votre
 dossier personnel d’après bash) est la suivante : _` echo "\$HOME = $HOME"`_
