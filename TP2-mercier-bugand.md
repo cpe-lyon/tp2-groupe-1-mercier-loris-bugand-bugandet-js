@@ -73,3 +73,7 @@ fi
 ```
 
 ## Exercice 4. Contrôle d’utilisateur
+Pour créer le script **testuser.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (_`cd \home\...\script`_) et faire un _`touch testuser.sh`_. Ensuite, il faut donner au fichier les droit d'execution : _`sudo chmod +x testuser.sh`_.
+Pour finir, entrez dans le fichier **testnombre.sh** ( _`nano testuser.sh`_ ) et entre le code suivant :
+```bash
+#!/bin/bash
