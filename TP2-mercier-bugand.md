@@ -39,11 +39,20 @@ Pour créer le script **testpwd.sh**, il faut d'abord se déplacer dans le dossi
 Pour finir, entrez dans le fichier **testpwd.sh** ( `_nano testpwd.sh_` ) et entre le code suivant :
 
 #!/bin/bash
+
 echo "Entrez votre mot de passe :"
+
 read -s mdp
+
 if [ $mdp == "loris" ]
+
 then
+
         echo "mot de passe correct"
+        
 else
+
         echo "mot de passe incorrect"
+        
 fi
+
