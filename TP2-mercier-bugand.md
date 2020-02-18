@@ -77,3 +77,31 @@ Pour créer le script **testuser.sh**, il faut d'abord se déplacer dans le doss
 Pour finir, entrez dans le fichier **testnombre.sh** ( _`nano testuser.sh`_ ) et entre le code suivant :
 ```bash
 #!/bin/bash
+if [ "$#" == "1" ]
+then
+ if grep "$1" /etc/passwd > /dev/null
+    then
+        echo "l'utilisateur existe"
+    else
+        echo "l'utilisateur n'existe pas"
+    fi
+else
+ echo "Utilisation : ./${0##*/} nom_utilisateur"
+fi
+```
+
+## Exercice 5. Factorielle
+```bash
+#!/bin/sh 
+ 
+fact() { 
+        n=$1 
+        if [ $n -eq 0 ] 
+        then 
+                echo 1 
+        else 
+                echo $(( n * `fact $(( n - 1 ))` )) 
+        fi 
+} 
+echo `fact $1`
+```
