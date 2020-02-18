@@ -32,11 +32,11 @@ dossier personnel d’après bash) est la suivante : _` echo "\$HOME = $HOME"`_
 
 # Programmation Bash
 * Pour créer le dossier **script** il suffit de renseigner la commande suivante : _`cd`_ puis _`mkdir script`_
-* Pour renseigner le chemin du dossier **script** dans la variable **PATH** il sufit d'ajouter le chemin de celui-ci depuis la racine faisant : `_sudo nano /etc/environnement_`
+* Pour renseigner le chemin du dossier **script** dans la variable **PATH** il sufit d'ajouter le chemin de celui-ci depuis la racine faisant : _`sudo nano /etc/environnement`_
 
 ## Exercice 2. Contrôle de mot de passe
-Pour créer le script **testpwd.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (`_cd \home\...\script _`) et faire un `_touch testpwd.sh_`. Ensuite, il faut donner au fichier les droit d'execution : `_sudo chmod +x testpwd.sh_`.
-Pour finir, entrez dans le fichier **testpwd.sh** ( `_nano testpwd.sh_` ) et entre le code suivant :
+Pour créer le script **testpwd.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (_`cd \home\...\script `_) et faire un _`touch testpwd.sh`_. Ensuite, il faut donner au fichier les droit d'execution : `_sudo chmod +x testpwd.sh_`.
+Pour finir, entrez dans le fichier **testpwd.sh** ( _`nano testpwd.sh`_ ) et entre le code suivant :
 ```bash
 #!/bin/bash
 echo "Entrez votre mot de passe :"
@@ -50,8 +50,8 @@ fi
 ```
 
 ## Exercice 3. Expressions rationnelles
-Pour créer le script **testnombre.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (`_cd \home\...\script _`) et faire un `_touch testnombre.sh_`. Ensuite, il faut donner au fichier les droit d'execution : `_sudo chmod +x testpwd.sh_`.
-Pour finir, entrez dans le fichier **testnombre.sh** ( `_nano testnombre.sh_` ) et entre le code suivant :
+Pour créer le script **testnombre.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (_`cd \home\...\script `_) et faire un _`touch testnombre.sh`_. Ensuite, il faut donner au fichier les droit d'execution : _`sudo chmod +x testnombre.sh`_.
+Pour finir, entrez dans le fichier **testnombre.sh** ( _`nano testnombre.sh`_ ) et entre le code suivant :
 ```bash
 #!/bin/bash
 function is_number()
