@@ -48,3 +48,10 @@ else
         echo "mot de passe incorrect"  
 fi
 ```
+
+## Exercice 3. Expressions rationnelles
+Pour créer le script **testnombre.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (`_cd \home\...\script _`) et faire un `_touch testnombre.sh_`. Ensuite, il faut donner au fichier les droit d'execution : `_sudo chmod +x testpwd.sh_`.
+Pour finir, entrez dans le fichier **testnombre.sh** ( `_nano testnombre.sh_` ) et entre le code suivant :
+```bash
+#!/bin/bash
+```
