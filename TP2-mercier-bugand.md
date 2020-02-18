@@ -16,6 +16,15 @@
 
 **4.** Pour créer la variable **My_Var** en bash il suffit de taper la commande _`MyVar='la valeur de la variable'`_. Nous pouvons vérifier son existance en utilisant la commande _`echo $My_Var`_.
 
-**5**
+**5.**
 
-**6** 
+**6.** 
+
+**7.**
+
+**8.**
+
+**9.**
+
+**10.** la commande echo pour écrire exactement la phrase : $HOME = chemin (où chemin est votre
+dossier personnel d’après bash) est la suivante : _` echo "\$HOME = $HOME"`_
