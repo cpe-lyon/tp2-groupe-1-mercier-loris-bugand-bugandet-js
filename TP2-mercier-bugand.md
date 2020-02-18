@@ -5,7 +5,7 @@
 
 **2.** La variable **$HOME** contient le chemin absolu vers le répertoire personnel de l'utilisateur connecté.
 
-**3.**
+**3.** 
 * La variable **$LANG** est utilisée par les différents programmes pour déterminer la langue des messages à afficher. 
 
 **Par exemple :** _`LANG=fr ls fff`_ => _ls: fff: Aucun fichier ou répertoire de ce type_ **|** _`LANG=en ls fff`_ => _ls: fff: No such file or directory_
@@ -20,7 +20,7 @@
 
 **6.** 
 
-**7.**
+**7.** Pour créer la variable d'environnement **NOMS** on utilise la commande _`export NOMS='Mercier Bugand-Bugandet'`_ Ensuite il suffit de rentrer la commande _`echo $NOMS`_ pour verifier.
 
 **8.**
 
