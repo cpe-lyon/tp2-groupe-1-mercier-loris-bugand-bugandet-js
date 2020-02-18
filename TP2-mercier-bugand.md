@@ -29,3 +29,9 @@ sont vos deux noms) en utilisant la variable NOMS est la suivante : _`echo "Bonj
 
 **10.** la commande echo pour écrire exactement la phrase : $HOME = chemin (où chemin est votre
 dossier personnel d’après bash) est la suivante : _` echo "\$HOME = $HOME"`_
+
+# Programmation Bash
+* Pour créer le dossier **script** il suffit de renseigner la commande suivante : _`cd`_ puis _`mkdir script`_
+* Pour renseigner le chemin du dossier **script** dans la variable **PATH** il sufit d'ajouter le chemin de celui-ci depuis la racine faisant : `_sudo nano /etc/environnement_`
+
+## Exercice 2. Contrôle de mot de passe
