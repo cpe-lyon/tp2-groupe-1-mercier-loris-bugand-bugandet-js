@@ -64,7 +64,7 @@ function is_number()
         fi
 }
 is_number $1
-if [ "$?" == 0 ]
+if [ "$?" == "0" ]
 then
         echo "L'argument est bien un nombre réel"                                                                               
 else
