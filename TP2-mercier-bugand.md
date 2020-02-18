@@ -37,22 +37,14 @@ dossier personnel d’après bash) est la suivante : _` echo "\$HOME = $HOME"`_
 ## Exercice 2. Contrôle de mot de passe
 Pour créer le script **testpwd.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (`_cd \home\...\script _`) et faire un `_touch testpwd.sh_`. Ensuite, il faut donner au fichier les droit d'execution : `_sudo chmod +x testpwd.sh_`.
 Pour finir, entrez dans le fichier **testpwd.sh** ( `_nano testpwd.sh_` ) et entre le code suivant :
-
+<div>
 #!/bin/bash
-
 echo "Entrez votre mot de passe :"
-
 read -s mdp
-
 if [ $mdp == "loris" ]
-
 then
-
         echo "mot de passe correct"
-        
 else
-
-        echo "mot de passe incorrect"
-        
+        echo "mot de passe incorrect"  
 fi
-
+<\div>
