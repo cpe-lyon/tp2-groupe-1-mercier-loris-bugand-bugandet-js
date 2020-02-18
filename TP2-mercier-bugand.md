@@ -54,4 +54,22 @@ Pour créer le script **testnombre.sh**, il faut d'abord se déplacer dans le do
 Pour finir, entrez dans le fichier **testnombre.sh** ( `_nano testnombre.sh_` ) et entre le code suivant :
 ```bash
 #!/bin/bash
+function is_number()
+{
+        re='^[+-]?[0-9]+([.][0-9]+)?$'
+        if ! [[ $1 =~ $re ]] ; then
+                return 1
+        else
+                return 0
+        fi
+}
+is_number $1
+if [ "$?" == 0 ]
+then
+        echo "L'argument est bien un nombre réel"                                                                               
+else
+        echo "ERROR !!!"
+fi
 ```
+
+## Exercice 4. Contrôle d’utilisateur
