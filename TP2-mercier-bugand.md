@@ -1,7 +1,9 @@
 # TP 2 - Bash
 ## Exercice 1. Variables d’environnement
 
-**1.**
+**1.** Les dossiers bash dans lesquels il y a les commandes tapées par l’utilisateur : `printenv PATH` et on a ce chemin comme résultat `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
+:/bin:/usr/games:/usr/local/games:/snap/bin`
+
 
 **2.** La variable **$HOME** contient le chemin absolu vers le répertoire personnel de l'utilisateur connecté.
 
