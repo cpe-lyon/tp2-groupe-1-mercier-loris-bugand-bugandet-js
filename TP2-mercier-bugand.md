@@ -91,6 +91,8 @@ fi
 ```
 
 ## Exercice 5. Factorielle
+Pour créer le script **fact.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (_`cd \home\...\script`_) et faire un _`touch fact.sh`_. Ensuite, il faut donner au fichier les droit d'execution : _`sudo chmod +x fact.sh`_.
+Pour finir, entrez dans le fichier **fact.sh** ( _`nano fact.sh`_ ) et entre le code suivant :
 ```bash
 #!/bin/sh 
  
