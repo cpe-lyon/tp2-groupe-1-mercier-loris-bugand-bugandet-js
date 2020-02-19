@@ -107,3 +107,9 @@ fact() {
 } 
 echo `fact $1`
 ```
+# Exercice 6. Le juste prix
+Pour créer le script **devine.sh**, il faut d'abord se déplacer dans le dossier /home/.../script (_`cd \home\...\script`_) et faire un _`touch devine.sh`_. Ensuite, il faut donner au fichier les droit d'execution : _`sudo chmod +x devine.sh`_.
+Pour finir, entrez dans le fichier **devine.sh** ( _`nano devine.sh`_ ) et entre le code suivant :
+```bash
+
+```
